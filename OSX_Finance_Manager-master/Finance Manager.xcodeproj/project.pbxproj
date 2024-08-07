@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1E3625227776F700009E71 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E3624227776F700009E71 /* EventMonitor.swift */; };
+		2B3C5BEF2278E82A000A39A6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C5BEE2278E82A000A39A6 /* SettingsViewController.swift */; };
+		2B3C5BF3227AFC47000A39A6 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C5BF1227AFC47000A39A6 /* AccountSettingsViewController.swift */; };
+		2B9297B72274FB64008E7DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9297B62274FB64008E7DC4 /* AppDelegate.swift */; };
+		2B9297B92274FB64008E7DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9297B82274FB64008E7DC4 /* ViewController.swift */; };
+		2B9297BB2274FB65008E7DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9297BA2274FB65008E7DC4 /* Assets.xcassets */; };
+		2B9297BE2274FB65008E7DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9297BC2274FB65008E7DC4 /* Main.storyboard */; };
+		2B9297CA2274FB65008E7DC4 /* Finance_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9297C92274FB65008E7DC4 /* Finance_ManagerTests.swift */; };
+		2B9297D52274FB65008E7DC4 /* Finance_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9297D42274FB65008E7DC4 /* Finance_ManagerUITests.swift */; };
+		2B9297E32274FE7D008E7DC4 /* MainInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9297E22274FE7D008E7DC4 /* MainInfoViewController.swift */; };
+		70E5DFCD5A74D9378C97E3B0 /* Pods_Finance_ManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411FB38A0CDE1542939370CA /* Pods_Finance_ManagerTests.framework */; };
+		BB1FFDF4537266427A1B5628 /* Pods_Finance_ManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B9E3521AA618ACFC4AFBB2 /* Pods_Finance_ManagerUITests.framework */; };
+		EF3754FAF7AC8C34B106641B /* Pods_Finance_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC44A64F0279248F47A5192 /* Pods_Finance_Manager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9297C62274FB65008E7DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9297AB2274FB64008E7DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9297B22274FB64008E7DC4;
+			remoteInfo = "Finance Manager";
+		};
+		2B9297D12274FB65008E7DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9297AB2274FB64008E7DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9297B22274FB64008E7DC4;
+			remoteInfo = "Finance Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1E3624227776F700009E71 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		2B3C5BEE2278E82A000A39A6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2B3C5BF02278EC29000A39A6 /* Finance Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Finance Manager.entitlements"; sourceTree = "<group>"; };
+		2B3C5BF1227AFC47000A39A6 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		2B9297B32274FB64008E7DC4 /* Finance Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9297B62274FB64008E7DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B9297B82274FB64008E7DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B9297BA2274FB65008E7DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9297BD2274FB65008E7DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B9297BF2274FB65008E7DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9297C02274FB65008E7DC4 /* Finance_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Finance_Manager.entitlements; sourceTree = "<group>"; };
+		2B9297C52274FB65008E7DC4 /* Finance ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9297C92274FB65008E7DC4 /* Finance_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_ManagerTests.swift; sourceTree = "<group>"; };
+		2B9297CB2274FB65008E7DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9297D02274FB65008E7DC4 /* Finance ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finance ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9297D42274FB65008E7DC4 /* Finance_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance_ManagerUITests.swift; sourceTree = "<group>"; };
+		2B9297D62274FB65008E7DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9297E22274FE7D008E7DC4 /* MainInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoViewController.swift; sourceTree = "<group>"; };
+		3FC44A64F0279248F47A5192 /* Pods_Finance_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finance_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411FB38A0CDE1542939370CA /* Pods_Finance_ManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finance_ManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43943357CD78BC1B07967360 /* Pods-Finance ManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance ManagerTests.release.xcconfig"; path = "Target Support Files/Pods-Finance ManagerTests/Pods-Finance ManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		56B9E3521AA618ACFC4AFBB2 /* Pods_Finance_ManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finance_ManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5802C32B52E58402D7478A51 /* Pods-Finance ManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance ManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Finance ManagerUITests/Pods-Finance ManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81BD83B686E49F02BAAB3B5D /* Pods-Finance Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance Manager.release.xcconfig"; path = "Target Support Files/Pods-Finance Manager/Pods-Finance Manager.release.xcconfig"; sourceTree = "<group>"; };
+		8F626D89619C9E97669638D4 /* Pods-Finance ManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance ManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-Finance ManagerTests/Pods-Finance ManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95D7C5CEA5CB44211099E2C2 /* Pods-Finance Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance Manager.debug.xcconfig"; path = "Target Support Files/Pods-Finance Manager/Pods-Finance Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		BD19D254BFCDC89771910ACF /* Pods-Finance ManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance ManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-Finance ManagerUITests/Pods-Finance ManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9297B02274FB64008E7DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3754FAF7AC8C34B106641B /* Pods_Finance_Manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297C22274FB65008E7DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E5DFCD5A74D9378C97E3B0 /* Pods_Finance_ManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297CD2274FB65008E7DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1FFDF4537266427A1B5628 /* Pods_Finance_ManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9297AA2274FB64008E7DC4 = {
+			isa = PBXGroup;
+			children = (
+				2B9297B52274FB64008E7DC4 /* Finance Manager */,
+				2B9297C82274FB65008E7DC4 /* Finance ManagerTests */,
+				2B9297D32274FB65008E7DC4 /* Finance ManagerUITests */,
+				2B9297B42274FB64008E7DC4 /* Products */,
+				D2F6B4D51CDED3B54319E73E /* Pods */,
+				309AB7697EF2DD56C1F72A0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9297B42274FB64008E7DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9297B32274FB64008E7DC4 /* Finance Manager.app */,
+				2B9297C52274FB65008E7DC4 /* Finance ManagerTests.xctest */,
+				2B9297D02274FB65008E7DC4 /* Finance ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9297B52274FB64008E7DC4 /* Finance Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C5BF02278EC29000A39A6 /* Finance Manager.entitlements */,
+				2B9297B62274FB64008E7DC4 /* AppDelegate.swift */,
+				2B9297B82274FB64008E7DC4 /* ViewController.swift */,
+				2B9297BA2274FB65008E7DC4 /* Assets.xcassets */,
+				2B9297BC2274FB65008E7DC4 /* Main.storyboard */,
+				2B9297BF2274FB65008E7DC4 /* Info.plist */,
+				2B9297C02274FB65008E7DC4 /* Finance_Manager.entitlements */,
+				2B9297E22274FE7D008E7DC4 /* MainInfoViewController.swift */,
+				2B1E3624227776F700009E71 /* EventMonitor.swift */,
+				2B3C5BEE2278E82A000A39A6 /* SettingsViewController.swift */,
+				2B3C5BF1227AFC47000A39A6 /* AccountSettingsViewController.swift */,
+			);
+			path = "Finance Manager";
+			sourceTree = "<group>";
+		};
+		2B9297C82274FB65008E7DC4 /* Finance ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9297C92274FB65008E7DC4 /* Finance_ManagerTests.swift */,
+				2B9297CB2274FB65008E7DC4 /* Info.plist */,
+			);
+			path = "Finance ManagerTests";
+			sourceTree = "<group>";
+		};
+		2B9297D32274FB65008E7DC4 /* Finance ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9297D42274FB65008E7DC4 /* Finance_ManagerUITests.swift */,
+				2B9297D62274FB65008E7DC4 /* Info.plist */,
+			);
+			path = "Finance ManagerUITests";
+			sourceTree = "<group>";
+		};
+		309AB7697EF2DD56C1F72A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC44A64F0279248F47A5192 /* Pods_Finance_Manager.framework */,
+				411FB38A0CDE1542939370CA /* Pods_Finance_ManagerTests.framework */,
+				56B9E3521AA618ACFC4AFBB2 /* Pods_Finance_ManagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F6B4D51CDED3B54319E73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D7C5CEA5CB44211099E2C2 /* Pods-Finance Manager.debug.xcconfig */,
+				81BD83B686E49F02BAAB3B5D /* Pods-Finance Manager.release.xcconfig */,
+				8F626D89619C9E97669638D4 /* Pods-Finance ManagerTests.debug.xcconfig */,
+				43943357CD78BC1B07967360 /* Pods-Finance ManagerTests.release.xcconfig */,
+				5802C32B52E58402D7478A51 /* Pods-Finance ManagerUITests.debug.xcconfig */,
+				BD19D254BFCDC89771910ACF /* Pods-Finance ManagerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9297B22274FB64008E7DC4 /* Finance Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9297D92274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance Manager" */;
+			buildPhases = (
+				FF70D99F048F8CE254A1DBE7 /* [CP] Check Pods Manifest.lock */,
+				2B9297AF2274FB64008E7DC4 /* Sources */,
+				2B9297B02274FB64008E7DC4 /* Frameworks */,
+				2B9297B12274FB64008E7DC4 /* Resources */,
+				C890FA8983FD31E589D70FF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finance Manager";
+			productName = "Finance Manager";
+			productReference = 2B9297B32274FB64008E7DC4 /* Finance Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B9297C42274FB65008E7DC4 /* Finance ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9297DC2274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance ManagerTests" */;
+			buildPhases = (
+				66D77B651E9AFDF09A64D046 /* [CP] Check Pods Manifest.lock */,
+				2B9297C12274FB65008E7DC4 /* Sources */,
+				2B9297C22274FB65008E7DC4 /* Frameworks */,
+				2B9297C32274FB65008E7DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9297C72274FB65008E7DC4 /* PBXTargetDependency */,
+			);
+			name = "Finance ManagerTests";
+			productName = "Finance ManagerTests";
+			productReference = 2B9297C52274FB65008E7DC4 /* Finance ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B9297CF2274FB65008E7DC4 /* Finance ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9297DF2274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance ManagerUITests" */;
+			buildPhases = (
+				B95A9022F91C61287218857B /* [CP] Check Pods Manifest.lock */,
+				2B9297CC2274FB65008E7DC4 /* Sources */,
+				2B9297CD2274FB65008E7DC4 /* Frameworks */,
+				2B9297CE2274FB65008E7DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9297D22274FB65008E7DC4 /* PBXTargetDependency */,
+			);
+			name = "Finance ManagerUITests";
+			productName = "Finance ManagerUITests";
+			productReference = 2B9297D02274FB65008E7DC4 /* Finance ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9297AB2274FB64008E7DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "George Kortsaridis";
+				TargetAttributes = {
+					2B9297B22274FB64008E7DC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					2B9297C42274FB65008E7DC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2B9297B22274FB64008E7DC4;
+					};
+					2B9297CF2274FB65008E7DC4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2B9297B22274FB64008E7DC4;
+					};
+				};
+			};
+			buildConfigurationList = 2B9297AE2274FB64008E7DC4 /* Build configuration list for PBXProject "Finance Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9297AA2274FB64008E7DC4;
+			productRefGroup = 2B9297B42274FB64008E7DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9297B22274FB64008E7DC4 /* Finance Manager */,
+				2B9297C42274FB65008E7DC4 /* Finance ManagerTests */,
+				2B9297CF2274FB65008E7DC4 /* Finance ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9297B12274FB64008E7DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9297BB2274FB65008E7DC4 /* Assets.xcassets in Resources */,
+				2B9297BE2274FB65008E7DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297C32274FB65008E7DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297CE2274FB65008E7DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66D77B651E9AFDF09A64D046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finance ManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95A9022F91C61287218857B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finance ManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C890FA8983FD31E589D70FF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Finance Manager/Pods-Finance Manager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Finance Manager/Pods-Finance Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF70D99F048F8CE254A1DBE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Finance Manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9297AF2274FB64008E7DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9297B92274FB64008E7DC4 /* ViewController.swift in Sources */,
+				2B9297B72274FB64008E7DC4 /* AppDelegate.swift in Sources */,
+				2B9297E32274FE7D008E7DC4 /* MainInfoViewController.swift in Sources */,
+				2B3C5BEF2278E82A000A39A6 /* SettingsViewController.swift in Sources */,
+				2B1E3625227776F700009E71 /* EventMonitor.swift in Sources */,
+				2B3C5BF3227AFC47000A39A6 /* AccountSettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297C12274FB65008E7DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9297CA2274FB65008E7DC4 /* Finance_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9297CC2274FB65008E7DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9297D52274FB65008E7DC4 /* Finance_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9297C72274FB65008E7DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9297B22274FB64008E7DC4 /* Finance Manager */;
+			targetProxy = 2B9297C62274FB65008E7DC4 /* PBXContainerItemProxy */;
+		};
+		2B9297D22274FB65008E7DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9297B22274FB64008E7DC4 /* Finance Manager */;
+			targetProxy = 2B9297D12274FB65008E7DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B9297BC2274FB65008E7DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9297BD2274FB65008E7DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9297D72274FB65008E7DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9297D82274FB65008E7DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B9297DA2274FB65008E7DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D7C5CEA5CB44211099E2C2 /* Pods-Finance Manager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Manager/Finance Manager.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B9297DB2274FB65008E7DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BD83B686E49F02BAAB3B5D /* Pods-Finance Manager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finance Manager/Finance Manager.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B9297DD2274FB65008E7DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F626D89619C9E97669638D4 /* Pods-Finance ManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Manager.app/Contents/MacOS/Finance Manager";
+			};
+			name = Debug;
+		};
+		2B9297DE2274FB65008E7DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43943357CD78BC1B07967360 /* Pods-Finance ManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance ManagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finance Manager.app/Contents/MacOS/Finance Manager";
+			};
+			name = Release;
+		};
+		2B9297E02274FB65008E7DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5802C32B52E58402D7478A51 /* Pods-Finance ManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Finance Manager";
+			};
+			name = Debug;
+		};
+		2B9297E12274FB65008E7DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD19D254BFCDC89771910ACF /* Pods-Finance ManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SCST4GM2M4;
+				INFOPLIST_FILE = "Finance ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gkortsaridis.Finance-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Finance Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9297AE2274FB64008E7DC4 /* Build configuration list for PBXProject "Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9297D72274FB65008E7DC4 /* Debug */,
+				2B9297D82274FB65008E7DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9297D92274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9297DA2274FB65008E7DC4 /* Debug */,
+				2B9297DB2274FB65008E7DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9297DC2274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9297DD2274FB65008E7DC4 /* Debug */,
+				2B9297DE2274FB65008E7DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9297DF2274FB65008E7DC4 /* Build configuration list for PBXNativeTarget "Finance ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9297E02274FB65008E7DC4 /* Debug */,
+				2B9297E12274FB65008E7DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B9297AB2274FB64008E7DC4 /* Project object */;
+}
